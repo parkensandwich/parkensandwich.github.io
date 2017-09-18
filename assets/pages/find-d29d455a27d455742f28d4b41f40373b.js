@@ -4,20 +4,19 @@ window.initMapOnFindPage = function() {
     scrollwheel: false,
     zoom: 17,
     mapTypeId: google.maps.MapTypeId.ROADMAP,
-    styles: [
-      {
+    styles: [{
         featureType: "poi",
         elementType: "labels",
-        stylers: [
-          { visibility: "off" }
-        ]
+        stylers: [{
+          visibility: "off"
+        }]
       },
       {
         featureType: "road",
         elementType: "labels",
-        stylers: [
-          { visibility: "on" },
-        ]
+        stylers: [{
+          visibility: "on"
+        }, ]
       },
     ],
   };
